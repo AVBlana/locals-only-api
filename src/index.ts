@@ -67,7 +67,9 @@ app.use(
   })
 );
 
+const PORT = parseInt(process?.env?.PORT || "4000");
+
 await new Promise<void>((resolve) =>
-  httpServer.listen({ port: 4000 }, resolve)
+  httpServer.listen({ port: PORT }, resolve)
 );
-console.log(`🚀 Server ready at http://localhost:4000/graphql`);
+console.log(`🚀 Server ready at http://localhost:${PORT}/graphql`);
