@@ -23,6 +23,7 @@
   "homepage": "https://github.com/AVBlana/locals-only-api#readme",
   "devDependencies": {
     "@graphql-codegen/cli": "5.0.0",
+    "@graphql-codegen/client-preset": "^4.1.0",
     "@graphql-codegen/typescript": "4.0.1",
     "@graphql-codegen/typescript-mongodb": "3.0.0",
     "@graphql-codegen/typescript-resolvers": "4.0.1",
@@ -31,7 +32,7 @@
   },
   "dependencies": {
     "@apollo/server": "^4.9.5",
-    "@graphql-codegen/client-preset": "^4.1.0",
+    "@graphql-codegen/introspection": "^4.0.0",
     "@graphql-codegen/typescript-react-apollo": "^4.1.0",
     "@prisma/client": "^5.6.0",
     "@types/cors": "^2.8.17",
