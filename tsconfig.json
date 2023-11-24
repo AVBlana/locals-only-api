@@ -22,7 +22,5 @@
     "experimentalDecorators": true,
     "resolveJsonModule": true,
     "baseUrl": "."
-  },
-  "exclude": ["node_modules"],
-  "include": [".//*.tsx", ".//*.ts"]
+  }
 }
