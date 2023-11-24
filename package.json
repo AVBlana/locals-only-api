@@ -8,7 +8,7 @@
     "codegen": "graphql-codegen --config codegen.ts",
     "generate": "npx prisma generate",
     "build": "npm run generate && tsc",
-    "start": "npm run build && nodemon dist/index.js"
+    "start": "npm run build && nodemon dist/src/index.js"
   },
   "repository": {
     "type": "git",
